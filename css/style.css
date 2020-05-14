@@ -1,0 +1,85 @@
+* {
+    margin : 0;
+    padding : 0;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+header{
+      background-image: url(../DSC_0253.jpg);
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+  }
+
+ul {
+    float: right;
+    list-style-type: none ;
+    margin-top: 22px ; 
+    
+
+  }
+ul li{
+    margin-top: 30px ;
+    font-size: large;  
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+ul li a{
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #0c0c0c86;
+    padding: 7px 12px;
+    border: 2px solid transparent;
+    transition:0.5s ease-out;
+ }
+
+  
+ul li a:hover{
+      background-color: #fffdfd;
+      columns: #000000;
+  }
+
+ul li :active a{
+    background-color: #fffdfd;
+    columns: #000000;
+}
+
+.logo img{
+    margin-left:0 ;
+    margin-top: -35px; 
+    float: left;
+    width: 450px;
+    height:auto;
+ }
+
+.title{
+    color: #292929;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.title h1{
+    font-size: 70px;
+}
+
+
+.content{
+    color: #080808;
+    font-size: 20px;
+    position: relative;
+    top: 70%;
+    left: 70%;
+    transform: translate(-70%,-70%);
+    background-color: rgba(255, 255, 255, 0.062);
+    z-index: 3;
+}
+
+
+ 
